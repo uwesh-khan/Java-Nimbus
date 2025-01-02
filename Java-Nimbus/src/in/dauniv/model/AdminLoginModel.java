@@ -1,17 +1,14 @@
 package in.dauniv.model;
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ResourceBundle;
-
+import java.sql.Connection;
 import in.dauniv.connectivity.GetConnection;
+import java.sql.SQLException;
+import java.sql.ResultSet;
 import in.dauniv.dto.MarksheetPOJO;
 
-public class StudentLoginModel {
-//	Authenticate the email id and password with the database of student
-	
-private ResourceBundle rb = ResourceBundle.getBundle("in.dauniv.resources.App");
+public class AdminLoginModel {
+	private ResourceBundle rb = ResourceBundle.getBundle("in.dauniv.resources.App");
 	
 	public boolean verify() {
 		Connection con = GetConnection.connectivity();
@@ -32,10 +29,9 @@ private ResourceBundle rb = ResourceBundle.getBundle("in.dauniv.resources.App");
 		}
 		catch(SQLException sqle) {
 			System.out.println("Database Error!");
-		}	
-			
+		}
+		
 		
 		return false;
 	}
-	
 }

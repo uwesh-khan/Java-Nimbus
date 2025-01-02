@@ -16,7 +16,7 @@
         <main>
             <section id="student-section">
                 <h2>Welcome, Student</h2>
-                <form action="/student-dashboard" method="post">
+                <form action="StudentLoginCtl" method="post">
                     <label for="student-id">Student ID:</label>
                     <input type="text" id="student-id" name="student_id" required>
                     <label for="student-password">Password:</label>

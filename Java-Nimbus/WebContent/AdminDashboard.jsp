@@ -17,8 +17,8 @@
             <section id="admin-operations">
                 <h2>Manage Students</h2>
                 <div class="operations">
-                    <a href="add-student.jsp"><button>Add New Student</button></a>
-                    <a href="update-marks.jsp"><button>Update Marks</button></a>
+                    <a href="AddStudent.jsp"><button>Add New Student</button></a>
+                    <a href="UpdateData.jsp"><button>UpdateData</button></a>
                     <a href="delete-marksheet.jsp"><button>Delete Marksheet</button></a>
                     <a href="view-all-students.jsp"><button>View All Students</button></a>
                 </div>

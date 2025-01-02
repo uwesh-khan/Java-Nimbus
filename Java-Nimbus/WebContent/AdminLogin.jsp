@@ -15,7 +15,7 @@
         <main>
             <section id="admin-section">
                 <h2>Welcome, Admin</h2>
-                <form action="/admin-dashboard" method="post">
+                <form action="AdminLoginCtl" method="post">
                     <label for="admin-username">Username:</label>
                     <input type="text" id="admin-username" name="username" required>
                     <label for="admin-password">Password:</label>
